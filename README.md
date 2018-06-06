@@ -14,12 +14,15 @@ Summary: Object-Relational Manager, aka database wrapper
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/sqlobject-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sqlobject-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sqlobject-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sqlobject-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sqlobject/badges/version.svg)](https://anaconda.org/conda-forge/sqlobject)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sqlobject/badges/downloads.svg)](https://anaconda.org/conda-forge/sqlobject)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sqlobject-green.svg)](https://anaconda.org/conda-forge/sqlobject) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sqlobject.svg)](https://anaconda.org/conda-forge/sqlobject) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sqlobject.svg)](https://anaconda.org/conda-forge/sqlobject) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sqlobject.svg)](https://anaconda.org/conda-forge/sqlobject) |
 
 Installing sqlobject
 ====================
