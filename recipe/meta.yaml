@@ -1,6 +1,6 @@
 {% set name = "SQLObject" %}
-{% set version = "3.6.0" %}
-{% set sha256 = "80599caf74d0e1ca02732c418138ee69f9b529a94ff18ccdc31444fc2ddedd0f" %}
+{% set version = "3.7.1" %}
+{% set sha256 = "0f0a5d9430c40b9fa5065e210a7fd3aaabb0713313e72b1b7b7dc4c7d62e43d2" %}
 
 package:
   name: {{ name|lower }}
