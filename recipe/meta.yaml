@@ -1,6 +1,6 @@
 {% set name = "SQLObject" %}
-{% set version = "3.7.0" %}
-{% set sha256 = "c0d440b638c091027deea7330bb934188b86402cba552a0bbde0535ed8fdab93" %}
+{% set version = "3.8.1" %}
+{% set sha256 = "620657105ab5720658222d10ad13c52281fe524137b59ab166eee4427ee2f548" %}
 
 package:
   name: {{ name|lower }}
@@ -51,7 +51,7 @@ about:
   home: http://sqlobject.org/
   license: LGPL-2.1
   license_file: LICENSE
-  summary: 'Object-Relational Manager, aka database wrapper'
+  summary: Object-Relational Manager, aka database wrapper
   dev_url: https://github.com/sqlobject/sqlobject
 
 extra:
