@@ -1,6 +1,6 @@
 {% set name = "SQLObject" %}
-{% set version = "3.7.0" %}
-{% set sha256 = "c0d440b638c091027deea7330bb934188b86402cba552a0bbde0535ed8fdab93" %}
+{% set version = "3.9.0" %}
+{% set sha256 = "606954dd3e3337e41931d2a0d400dcff31025b89ca638396fc510fcbdd0bc7af" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: python setup.py install  --single-version-externally-managed --record=record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
@@ -51,7 +51,7 @@ about:
   home: http://sqlobject.org/
   license: LGPL-2.1
   license_file: LICENSE
-  summary: 'Object-Relational Manager, aka database wrapper'
+  summary: Object-Relational Manager, aka database wrapper
   dev_url: https://github.com/sqlobject/sqlobject
 
 extra:
